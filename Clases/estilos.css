@@ -1,0 +1,62 @@
+        /* simepre que se usa css se usar el * que e sun reset para el navegador */
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        p {
+            font-weight: bold;
+            color: tomato;
+        }
+        
+        section article p {
+            text-align: center;
+            font-weight: bold;
+            line-height: 1.6px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: greenyellow;
+        }
+        /* !important sirve para poner todo ese estilo pero no es nada recomendable usar */
+        
+        p {
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            color: blue;
+        }
+        
+        .cuadro {
+            width: 150px;
+            height: 150px;
+            background-color: tomato;
+        }
+        
+        .margen-5px {
+            margin: 5px;
+        }
+        
+        .verde {
+            background-color: blue;
+        }
+        /* estilos por medio de id y no se repiten*/
+        
+        #rectangulo {
+            width: 300px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 25px;
+        }
+        
+        #entradaTexto {
+            border-radius: 15px;
+        }
+        
+        ul li {
+            color: rgb(218, 135, 35);
+        }
+        
+        .fondoDiv {
+            height: 250px;
+            background-image: url(https://images.unsplash.com/photo-1654710695378-106a19fcbe90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
