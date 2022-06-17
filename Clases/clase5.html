@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .contenedor {
+            background-color: tomato;
+            width: 100%;
+            height: 800px;
+            display: flex;
+            /* flex-direction: row; */
+            /* sirve para brincar los cuadros si ya no caben por las dimesiones */
+            /* flex-wrap: wrap; */
+            /* este sirve para no poner por separado direction y wrap */
+            flex-flow: row wrap;
+            /* para alinear al centro */
+            /* flex-direction: column;
+            /* justify-content: center; */
+            justify-content: space-around;
+            /* justify-content: space-evenly; */
+            /* para centar tanto en la altura como el ancho puede ser center, flex star
+             para que sea de arriba hacia abajo o flex-end, o strech  */
+            align-items: stretch;
+        }
+        
+        .cubo {
+            background-color: yellow;
+            width: 200px;
+            /* height: 200px; */
+            margin: 20px;
+            border-radius: 12%;
+        }
+        
+        .cubo--blanco {
+            background-color: aliceblue;
+        }
+        
+        .cubo--border {
+            background-color: aliceblue;
+            border: 10px solid black;
+            order: 3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div class="cubo cubo--blanco"></div>
+        <div class="cubo"></div>
+        <div class="cubo"></div>
+        <div class="cubo"></div>
+        <div class="cubo"></div>
+        <div class="cubo"></div>
+        <div class="cubo"></div>
+        <div class="cubo cubo--border"></div>
+    </div>
+
+
+
+    <!-- pagina paera ver el flexbox -->
+    <a href="https://nomadlist.com/" target="_blank">Go nomadlist</a>
+</body>
+
+</html>
